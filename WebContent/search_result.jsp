@@ -5,7 +5,7 @@
 
 <html>
     <head>
-    <!-- °Ë»ö°á°ú ÆäÀÌÁö, °Ë»ö°á°ú¿¡ µû¶ó ¼­¹ö·ÎºÎÅÍ µ¿ÀûÀ¸·Î µ¥ÀÌÅÍ ¹Þ¾Æ¿Í¾ßÇÔ -->
+    <!-- ï¿½Ë»ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½, ï¿½Ë»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Îºï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Þ¾Æ¿Í¾ï¿½ï¿½ï¿½ -->
         <meta charset="utf-8"/>
         <script src="https://kit.fontawesome.com/a076d05399.js"></script>
         <link rel="stylesheet" href="./css/common.css" type="text/css" />
@@ -13,10 +13,11 @@
 
     </head>
     <body>
-    	<script type="text/javascript" src="./dynamicSearch.js"></script>
+    	<script type="text/javascript" src="dynamicSearch.js"></script>
   		<jsp:include page="navbar.jsp"/>
 		<script type="text/javascript">
 			searchListPrint();
 		</script>
+		</div>
     </body>
 </html>

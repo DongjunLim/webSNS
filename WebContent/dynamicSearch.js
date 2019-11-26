@@ -8,7 +8,7 @@ function searchListPrint(){
 	document.write(`<div class="keyword">#${keyword}</div><div class="columns">`);
 	
 	for(var i = 1; i < theNumberOfSearchResult; i++){
-		document.write(`<figure><img src="./sample/ootd/rename${i%21}.jpg"/></figure>`);
+		document.write(`<a href="join.html"><figure><img src="./sample/ootd/rename${i%21}.jpg"/></figure></a>`);
 	}
 	
 	//document.write('</div>');

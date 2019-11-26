@@ -3,7 +3,7 @@ function newsfeedPrint(){
 	//사용하는 변수 : writerName, locationOfPhoto, theNumberOfGood, contentVariable, replyVariable
 	//아래의 변수 초기화값은 나중에 삭제할 예정
 	var theNumberOfFeed = 3;
-	var writerName = 'dongjun', locationOfPhoto='./sample/2.JPG', theNumberOfGood = 10;
+	var writerName = 'dongjun', locationOfPhoto='./sample/4.JPG', theNumberOfGood = 10;
 	var contentVariable = `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius, minima. 
 	Nulla voluptatem vel deleniti tempore. Praesentium, inventore? Aspernatur, eum? 
 	Quasi distinctio impedit natus, odit eligendi itaque quos tenetur culpa velit!`;

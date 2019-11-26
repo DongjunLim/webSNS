@@ -11,8 +11,7 @@
         <div class="menu">
             <a class="logo" href="./NewsFeed.jsp"><i class="fas fa-circle-notch"></i></a>
             <label class="searchBar" style="text-align: center;">
-                <input type="text"  value="검색"
-                onclick="value=''"/>
+                <input type="text"  placeholder="검색"/>
             </label>
             <div class="icon_list">
             	<div style="padding-right:25px;"></div>

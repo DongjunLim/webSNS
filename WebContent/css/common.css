@@ -36,12 +36,12 @@ body{
 .searchBar input{
     width:500px;
     height:27px; 
-    color:lightgray;
+    color:black;
     border-radius: 10px;
     border:1px solid;
     text-align: center;
     font-size:1.15rem;
-    
+    outline:none;
 }
 .icon_list{
     
