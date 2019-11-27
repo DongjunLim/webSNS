@@ -1,6 +1,12 @@
 @charset "utf-8";
 
+.writeBox{
+	margin:0 auto;
+	
+}
+
 .writeBox .MainLayout{
+    margin:0 auto;
     width:600px;
     min-height:250px;
     border-radius: 15px;
@@ -60,10 +66,7 @@
     display:flex;
     
 }
-.writeBox .contentbox .imagebox{
-    
-    
-}
+
 .writeBox .contentbox textarea{
     
     flex-grow:1;
