@@ -57,3 +57,7 @@ body{
     color:rgb(29, 30, 46);
     -webkit-text-stroke: 1px white;
 }
+
+input::placeholder{
+    color:lightgray;
+}

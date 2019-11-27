@@ -8,7 +8,7 @@
         <script src="https://kit.fontawesome.com/a076d05399.js"></script>
         <link rel="stylesheet" href="./css/common.css" type="text/css" />
         <link rel="stylesheet" href="./css/search_result.css" type="text/css" />
-
+        
 
 </head>
 <body>

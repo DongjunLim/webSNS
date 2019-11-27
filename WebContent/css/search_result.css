@@ -29,3 +29,7 @@
     height:auto;
     border-radius: 20px;
 }
+
+input::placeholder{
+    color:lightgray;
+}

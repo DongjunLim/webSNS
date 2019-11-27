@@ -45,13 +45,15 @@ h1{
     width:250px;
     height:30px;
     margin-bottom:4px;
-    color: lightgray;
+    color: black;
     display:inline-block;
     box-sizing: border-box;
     margin-bottom:15px;
+    outline:none;
     
-    
-    
+}
+.Login label input::placeholder{
+    color:lightgray;
 }
 #sbmt{
     background-color:rgb(36, 90, 121);
@@ -110,4 +112,6 @@ select{
     border:0px;
     border-bottom:1px solid lightgray;
 }
+
+
 

@@ -22,8 +22,8 @@
             <i class="fas fa-phone"></i>     						
             <div id="PhoneBox">
                 <input id = "PhoneNum"  type="text" name="phone1" value="010"/>-
-                <input id = "PhoneNum"  type="text" name="phone2" value="" placeholder="0000"/>
-                <input id = "PhoneNum"  type="text" name="phone3" value=""placeholder="0000"/>
+                <input id = "PhoneNum"  type="text" name="phone2" value=""/>
+                <input id = "PhoneNum"  type="text" name="phone3" value=""/>
                     
             </div>
             <br>
