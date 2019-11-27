@@ -14,7 +14,7 @@
                 <input type="text"  placeholder="검색"/>
             </label>
             <div class="icon_list">
-            	<div style="padding-right:25px;"></div>
+            	<div style="padding-right:15px;"></div>
                 <a href="./search_result.jsp">               <!-- 나침반 아이콘, 클릭하면 둘러보기로 넘어감 -->
                     <i class="far fa-compass" ></i>
                 </a>
@@ -25,8 +25,13 @@
                 <div style="padding-right:25px;"></div>
                 <a href="./mypage.jsp">               <!-- 사용자 마이페이지 아이콘-->
                     <i class="far fa-user"></i>
+                
                 </a>
-                <div style="padding-right:25px;"></div>
+                <div style="padding-right:29px;"></div>
+                <a href="./WriteBox.html">
+                    <i class="far fa-edit"></i>
+                </a>
+                
             </div>
         </div>
 </body>

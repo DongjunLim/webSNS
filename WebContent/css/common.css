@@ -22,10 +22,10 @@ body{
     flex-basis:33%;
     flex-grow:1;
     /* flex-shrink: 1; */
-    /* margin-left:20%; */
+    margin-left:-2%
 }
 .searchBar{
-    
+    margin-left:15px;
     flex-basis: 33%;
     /* margin-left:20%; */
     /* text-align: center; */
@@ -38,7 +38,7 @@ body{
     height:27px; 
     color:black;
     border-radius: 10px;
-    border:1px solid;
+    border:1px solid lightgray;
     text-align: center;
     font-size:1.15rem;
     outline:none;
@@ -53,11 +53,27 @@ body{
     
 }
 .menu i{
+	width:39.5455px;
     font-size:2.1rem;
     color:rgb(29, 30, 46);
     -webkit-text-stroke: 1px white;
+    padding-right:0px;
+    transition:300ms ease all; 
 }
+.menu i:hover{
+	font-size:2.35rem;
 
+}
+.menu i:active{
+	font-size:2.35rem;
+	font-weight:900;
+	transition:80ms ease all; 
+	
+}
+.menu .fa-circle-notch:active{
+	-webkit-text-stroke: 2.5px black;
+	
+}
 input::placeholder{
     color:lightgray;
 }
