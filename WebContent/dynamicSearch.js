@@ -3,12 +3,12 @@ function searchListPrint(){
 	//아래의 변수 초기화값은 나중에 삭제할 예정
 	var theNumberOfSearchResult = 30;
 	var locationList = new Array();
-	var keyword = 'Keyword';
+
 	
-	document.write(`<div class="keyword">#${keyword}</div><div class="columns">`);
+	document.write(`<div class="columns">`);
 	
 	for(var i = 1; i < theNumberOfSearchResult; i++){
-		document.write(`<a href="join.html"><figure><img src="./sample/ootd/rename${i%21}.jpg"/></figure></a>`);
+		document.write(`<a href="FeedDetail.jsp"><figure><img src="./sample/ootd/rename${i%21}.jpg"/></figure></a>`);
 	}
 	
 	//document.write('</div>');
@@ -18,4 +18,11 @@ function searchListPrint(){
 		document.write(`<figure><img src="${locationList[i]}"/></figure>`);
 	}
 	*/
+	document.write(`</div>`);
+}
+
+function printKeyword(){
+	var keyword = 'Keyword';
+	document.write(`<div class="keyword">#${keyword}</div>`);
+	
 }

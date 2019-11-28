@@ -13,7 +13,7 @@
 
 </head>
 <body>
-	<jsp:include page="NewsFeed.jsp"/>
+	<jsp:include page="sign_in.jsp"/>
 	
 
 </body>

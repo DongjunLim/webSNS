@@ -10,6 +10,34 @@
     margin-bottom:10px;
 }
 
+.back{
+    opacity: 0.6;
+    cursor: pointer;
+    width:45px;
+    height: 45px;
+    position: fixed;
+    text-align: center;
+    top:12%;
+    left:3%;
+    outline:none;
+    border:none;
+    background:none;
+    font-size:1.6rem;
+    border-radius: 40px;
+    background:rgb(245,245,245);
+    padding:0;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.fa-arrow-left{
+    cursor:pointer;
+    opacity: 0.9;
+    position: fixed;
+    top:13.2%;
+    left:3.6%;
+    font-size:1.6rem;
+    
+}
+
 .columns{
     column-width: 220px;
     column-gap: 5px;

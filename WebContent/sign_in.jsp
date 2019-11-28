@@ -14,7 +14,7 @@
 	<script type="text/javascript" src="./validityCheck.js"></script>
         <div class="frame">
             <h1>onion</h1>
-            <form name="login" class="login" method="POST">
+            <form name="login" class="login" method="POST" action="NewsFeed.jsp">
                     <i class="fas fa-user"></i>     <label><input class="text_box" type= "text" name="id" placeholder="아이디"></label><br>
                     <i class="fas fa-key"></i>     <label for "pass"><input class="text_box" name="pswd" type= 'password' placeholder="비밀번호"></label><br>
                     <div><button>로그인</button></div>

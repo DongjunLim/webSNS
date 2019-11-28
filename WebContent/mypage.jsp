@@ -5,7 +5,8 @@
 <head>
     <meta charset="utf-8"/>
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-    <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-3.2.0.min.js" ></script>
+    <script type="text/javascript" src="./ScrollEvent.js"></script>
     <link rel="stylesheet" href="./css/mypage.css" type="text/css" />
     <link rel="stylesheet" href="./css/common.css" type="text/css" />
 </head>
