@@ -1,36 +1,35 @@
 function dateBox(){
-	document.write('<select name="user_birth_year">');
+	var nowYear = new Date().getFullYear();
+	var index = 0;
+	document.write('<select id="select_year" name="user_birth_year" onchange="dayChangeBelongToMonth();"></select>년');
 	for(var i = 2019; i > 1899; i--){
-		document.write(`<option value="${i}">${i}</option>`);
+		document.getElementById("select_year").options[index++] = new Option(i, i);
 	}
-	document.write("</select>년");
-
-	document.write('<select name="user_birth_month" onchange="dayChangeBelongToMonth(this)">');
+	
+	index = 0;
+	document.write('<select id="select_month" name="user_birth_month" onchange="dayChangeBelongToMonth();"></select>월');
 	for(var i = 1; i < 13; i++){
-		document.write(`<option value="${i}">${i}</option>`);
+		document.getElementById("select_month").options[index++] = new Option(i, i);
 	}
-	document.write("</select>월");
+	document.write('<select id="select_day" name="user_birth_day"></select>일');
+
+	dayChangeBelongToMonth();
 }
 
-function dayChangeBelongToMonth(selectedObject){
-	var yourMonthSelect = selectedObject.value;
-	alert(typeof(yourMonthSelect));
-	var list_31 = ['1', '3', '5', '7', '8', '10', '12'];
-	var list_30 = ['4', '6', '9', '11'];
-	var days = 0;
+function dayChangeBelongToMonth(){
+	var Year=document.getElementById('select_year').value;
+	var Month=document.getElementById('select_month').value;
+	var day=new Date(new Date(Year,Month,1)-86400000).getDate();
+	var dayindex_len=document.getElementById('select_day').length;
 	
-	alert(list_30.includes(yourMonthSelect))
-	
-	if (list_31.includes(yourMonthSelect))
-		days = 31;
-	else if (list_30.includes(yourMonthSelect))
-		days = 30;
-	else
-		days = 28;
-
-	document.write('<select name="user_birth_day">');
-	for(var i = days; i > 0; i--){
-		document.write(`<option value="${i}">${i}</option>`);
+	if(day>dayindex_len){
+		for(var i=(dayindex_len+1); i<=day; i++){
+			document.getElementById('select_day').options[i-1] = new Option(i, i);
+		}
 	}
-	document.write("</select>일");
+	else if(day<dayindex_len){
+		for(var i=dayindex_len; i>=day; i--){
+			document.getElementById('select_day').options[i]=null;
+		}
+	}
 }

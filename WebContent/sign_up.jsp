@@ -35,8 +35,8 @@
             </div><br>
             <i class="fas fa-venus-mars"></i>
             <div class="gender">
-                <input  type="radio" name="gender" value="man" />남성
-                <input  type="radio" name="gender" value="woman" />여성
+                <input  type="radio" name="gender" value="male" />남성
+                <input  type="radio" name="gender" value="female" />여성
                 <input  type="radio" name="gender" value="nochoice"/>선택하지 않음</label><br>
             </div>
                     
