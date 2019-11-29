@@ -101,3 +101,7 @@ function myfeedPrint(){
 	}
 	*/
 }
+
+function feedDetailPrint(){
+	
+}
