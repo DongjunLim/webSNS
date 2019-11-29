@@ -20,10 +20,10 @@
     <div style="padding-top:60px;">
     <div class="back__arrow">
     <button class="back" onclick="history.go(-1);"></button>
-    <div onclick="history.go(-1);"><i class="fas fa-arrow-left"></i></div>
+    <div onclick="history.go(-1);" style="width:45px; text-align: center; height:45px;"><i class="fas fa-arrow-left"></i></div>
 	</div>
-
-    <div class="MainBox">
+	<div class="l-out">
+	<div class="MainBox">
         <div class="FeedPhoto">
             <img src="new.jpg">
         </div>
@@ -70,7 +70,7 @@
         </div>
     </div>
     </div>
-    <div style="padding-top:40px;"></div>
+    <div style="padding-top:60px;"></div>
     <div style="text-align: center; font-size:1.6rem; font-weight: bold;">이런 스타일은 어떠세요?</div>
     <div class="SameLayout" style="margin-top: 25px; margin-left:35px; margin-right:35px;">
     	<script type="text/javascript">
