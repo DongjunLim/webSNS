@@ -50,6 +50,7 @@ h1{
     box-sizing: border-box;
     margin-bottom:15px;
     outline:none;
+    background:none;
     
 }
 .Login label input::placeholder{
