@@ -1,5 +1,5 @@
 
-var imgs = "";
+
 
 $(document).ready(function(){
     //스크롤 발생 이벤트 처리
@@ -8,7 +8,7 @@ $(document).ready(function(){
         var scrollH = $(this).height(); //스크롤바를 갖는 div의 높이
         var contentH = $('body').height(); //문서 전체 내용을 갖는 div의 높이
         if(scrollT + scrollH  >= contentH) { // 스크롤바가 아래 쪽에 위치할 때
-        	
+        	var imgs = "";
         	var theNumberOfSearchResult = 30;
         	var locationList = new Array();
         	
