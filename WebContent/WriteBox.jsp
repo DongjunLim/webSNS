@@ -32,7 +32,7 @@
             <div class="NameBar">
                 <a href="mypage.jsp">
                     <div id="ProfilePhoto"><img src="new.jpg"/></div>
-                    <button class="profile">username</button>
+                    <button id="profile">username</button>
                 </a>
 
             </div>
