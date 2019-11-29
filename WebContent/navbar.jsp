@@ -33,26 +33,26 @@
         <script type="text/javascript">
                 $(document).ready(function(){
                  //검은 막 띄우기
-                $(".openMask").click(function(e){
-                    e.preventDefault();
-                    wrapWindowByMask();
+                 $(".openMask").click(function(e){
+                     e.preventDefault();
+                     wrapWindowByMask();
+                 });
+         
+                 //닫기 버튼을 눌렀을 때
+                 $(".window .close").click(function (e) {  
+                     //링크 기본동작은 작동하지 않도록 한다.
+                     e.preventDefault();  
+                     $("#mask, .window").hide();  
+                 });       
+         
+                 //검은 막을 눌렀을 때
+                 $("#mask").click(function () {  
+                     $(this).hide();  
+                     $(".window").hide();  
+                
+                 });      
+         
                 });
-         
-                //닫기 버튼을 눌렀을 때
-                $(".window .close").click(function (e) {  
-                    //링크 기본동작은 작동하지 않도록 한다.
-                    e.preventDefault();  
-                    $("#mask, .window").hide();  
-                });       
-         
-                //검은 막을 눌렀을 때
-                $("#mask").click(function () {  
-                    $(this).hide();  
-                    $(".window").hide();  
-            
-                });      
-         
-            });
         </script>
         <script type="text/javascript">
             function showImg(){                        
