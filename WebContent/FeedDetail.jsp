@@ -18,9 +18,10 @@
 <body>
     <jsp:include page="navbar.jsp"/>
     <div style="padding-top:60px;">
+    <div class="back__arrow">
     <button class="back" onclick="history.go(-1);"></button>
     <div onclick="history.go(-1);"><i class="fas fa-arrow-left"></i></div>
-
+	</div>
 
     <div class="MainBox">
         <div class="FeedPhoto">
@@ -71,7 +72,7 @@
     </div>
     <div style="padding-top:40px;"></div>
     <div style="text-align: center; font-size:1.6rem; font-weight: bold;">이런 스타일은 어떠세요?</div>
-    <div class="SameLayout" style="margin-top: 25px;">
+    <div class="SameLayout" style="margin-top: 25px; margin-left:35px; margin-right:35px;">
     	<script type="text/javascript">
 			searchListPrint();
 		</script>
@@ -79,32 +80,6 @@
     
     
     
-        <!-- <div class="columns">
-            <a href="FeedDetail.jsp">
-                <figure><img src="./sample/ootd/rename1.jpg"/></figure>
-            </a>
-            <figure><img src="./sample/ootd/rename2.jpg"/></figure>
-            <figure><img src="./sample/ootd/rename3.jpg"/></figure>
-            <figure><img src="./sample/ootd/rename4.jpg"/></figure>
-            <figure><img src="./sample/ootd/rename5.jpg"/></figure>
-            <figure><img src="./sample/ootd/rename6.jpg"/></figure>
-            <figure><img src="./sample/ootd/rename7.jpg"/></figure>
-            <figure><img src="./sample/ootd/rename8.jpg"/></figure>
-            <figure><img src="./sample/ootd/rename9.jpg"/></figure>
-            <figure><img src="./sample/ootd/rename10.jpg"/></figure>
-            <figure><img src="./sample/ootd/rename11.jpg"/></figure>
-            <figure><img src="./sample/ootd/rename12.jpg"/></figure>
-            <figure><img src="./sample/ootd/rename13.jpg"/></figure>
-            <figure><img src="./sample/ootd/rename14.jpg"/></figure>
-            <figure><img src="./sample/ootd/rename15.jpg"/></figure>
-            <figure><img src="./sample/ootd/rename16.jpg"/></figure>
-            <figure><img src="./sample/ootd/rename17.jpg"/></figure>
-            <figure><img src="./sample/ootd/rename18.jpg"/></figure>
-            <figure><img src="./sample/ootd/rename19.jpg"/></figure>
-            <figure><img src="./sample/ootd/rename20.jpg"/></figure>
-            
-        </div>
- -->
     </div>
 </body>
 </html>

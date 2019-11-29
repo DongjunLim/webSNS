@@ -24,12 +24,12 @@
         	printKeyword();
         	
 		</script>
-        
+        <div class="SameLayout" style="margin-top: 25px; margin-left:35px; margin-right:35px;">        
         <script type="text/javascript">
-        	
+
         	searchListPrint();
 		</script>
-		
+		</div>
 		
     </body>
 </html>
