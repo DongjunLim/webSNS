@@ -7,14 +7,19 @@
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     <link rel="stylesheet" href="./css/common.css" type="text/css" />
     <link rel="stylesheet" href="./css/WriteBox.css" type="text/css" />
+    <link rel="stylesheet" href="./css/setting.css" type="text/css" />
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
     <script src="http://code.jquery.com/jquery-latest.js"></script>
     <script type="text/javascript" src="./writeBox.js"></script>
+    
 </head>
 
 <body>
+
+
     <script type="text/javascript" src="./writeBox.js"></script>
         <div class="menu">
+        	<div id="u-mask"></div>
             <a class="logo" href="./NewsFeed.jsp"><i class="fas fa-circle-notch"></i></a>
             <label class="searchBar" style="text-align: center;">
                 <input type="text"  placeholder="검색"/>
@@ -29,17 +34,33 @@
                     <i class="far fa-bell"></i>
                 </a>  
                 <div style="padding-right:25px;"></div>
-                <a href="./mypage.jsp">               <!-- 사용자 마이페이지 아이콘-->
+                <a href="#">               <!-- 사용자 마이페이지 아이콘-->
                     <i class="far fa-user"></i>
-                
+                    <div class="user-box">
+                        <div class="u-content">
+                            <button class="u-mypage" onclick="location.href='mypage.jsp'">
+                                <i class="fas fa-user-edit"></i>마이페이지
+                             </button>
+                            <button class="u-bookmark" onclick="location.href='BookMark.jsp'">
+                               <i class="fas fa-bookmark"></i> 북마크</button>
+         
+                            <button class="u-logout" onclick="location.href='logout.jsp'">
+                                <i class="fas fa-sign-out-alt"></i> 로그아웃</button>
+                         </div>
+                        <div class="triangle_up3"><a href="#"></a></div>
+                    </div>
                 </a>
                 <div style="padding-right:29px;"></div>
                 <a href="#" class="openMask">
                     <i class="far fa-edit"></i>
                 </a>
-                
             </div>
+                       
+        				
+           					 
         </div>
+                
+        
         <div id ="wrap"> 
             <div id = "container">  
                 <div id="mask"></div>

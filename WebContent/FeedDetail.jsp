@@ -10,12 +10,17 @@
     <script type="text/javascript" src="./IconEvent.js"></script>
     <script type="text/javascript" src="./ScrollEvent.js"></script>
     <script type="text/javascript" src="./dynamicSearch.js"></script>
+    <script type="text/javascript" src="./setting.js"></script>
     <link rel="stylesheet" href="./css/common.css" type="text/css" />
     <link rel="stylesheet" href="./css/FeedDetail.css" type="text/css" />
     <link rel="stylesheet" href="./css/search_result.css" type="text/css" />
+    <link rel="stylesheet" href="./css/setting.css" type="text/css" />
     
 </head>
 <body>
+    <div id="s-mask"></div>
+
+    </div>   
     <jsp:include page="navbar.jsp"/>
     <div style="padding-top:60px;">
     <div class="back__arrow">
@@ -33,7 +38,19 @@
                 <div id="ProfilePhoto"><img src="new.jpg"/></div>
                <button class="profile">username</button>
                <button class="follow">팔로우</button>
-               <div class="setting"><i class="fas fa-ellipsis-h"></i></div>
+               <div class="setting"><i class="fas fa-ellipsis-h"></i>
+               
+                   <div class="setting-box">
+                       
+        <div class="content">
+            <button class="modify">
+               <i class="fas fa-pencil-alt"></i> 수정
+            </button>
+            <button class="remove">
+               <i class="far fa-trash-alt"></i> 삭제
+            </div>
+            <div class="triangle_up2"><a href="#"></a></div>
+        </div></div>
             </div>
             <div class="TextLayout">
                 <div class="Content">

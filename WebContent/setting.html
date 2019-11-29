@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <style>
+        .setting-box{
+            width:200px;
+            height:90px;
+            border:1px solid lightgray;
+            border-radius: 10px;
+            
+        }
+        .content{
+            display:flex;
+            flex-direction: column;
+        }
+        .modify{
+            flex-grow:1;
+            height: 45px;
+            padding:0px;
+            outline:none;
+            background:rgb(252, 252, 243);
+            border:0;
+            border-top-left-radius: 11px;
+            border-top-right-radius: 11px;
+            border-bottom:1px solid lightgray;
+            cursor: pointer;
+            font-size:0.9rem;
+        }
+        .modify:hover{
+            background:rgb(239, 240, 233);
+        }
+        .remove{
+            flex-grow:1;
+            height: 45px;
+            padding:0px;
+            outline:none;
+            background:rgb(252, 252, 243);
+            border:0;
+            border-bottom-left-radius: 11px;
+            border-bottom-right-radius: 11px;
+            cursor: pointer;
+            font-size:0.9rem;
+        }
+        .remove:hover{
+            background:rgb(239, 240, 233);
+        }
+        .modify:active{
+            background:rgb(174, 179, 151);
+        }
+        .remove:active{
+            background:rgb(174, 179, 151);
+        }
+
+        </style>
+</head>
+<body>
+    <div id="s-mask"></div>
+    <div class="setting-box">
+        <div class="content">
+            <button class="modify">
+                피드수정
+            </button>
+            <button class="remove">
+                피드삭제
+            </div>
+        </div>
+
+
+
+
+    </div>
+    
+</body>
+</html>
