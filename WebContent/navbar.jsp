@@ -53,7 +53,7 @@
                             <div class="NameBar">
                                 <a href="mypage.jsp">
                                     <div id="ProfilePhoto"><img src=${locationOfProfileImg}/></div>
-                                    <button id="profile">${userID}</button>
+                                    <button id="profile" type="button">${userID}</button>
                                 </a>
                    
                                </div>
@@ -71,9 +71,9 @@
                                             showImg();
                                         <\/script>
                                     </div>
-                                    <button class="submitbox">
-                                        <label><i class="fas fa-paper-plane"></i></label>
-                                    </button>
+                                    <label id="btn"><button class="submitbox" type="submit">
+                                        <i class="fas fa-paper-plane"></i>
+                                    </button></label>
                                 </div>
                         </form>
                     </div>
