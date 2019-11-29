@@ -5,10 +5,75 @@
 <head>
 	<meta charset="utf-8"/>
 	<script src="https://kit.fontawesome.com/a076d05399.js"></script>
-	<script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-3.2.0.min.js" ></script>
 	<link rel="stylesheet" href="./css/mypage.css" type="text/css" />
 	<link rel="stylesheet" href="./css/common.css" type="text/css" />
 	<link rel="stylesheet" href="./css/EditProfile.css" type="text/css" />
+	<!-- <script type="text/javascript">
+        function showImg(){                        
+            document.getElementById("ex_file").onchange = function () {
+            var reader = new FileReader();
+            reader.onload = function (e) {
+                // get loaded data and render thumbnail.
+				document.getElementById("ProfilePhoto").src = e.target.result;
+				document.write("<h1>Loremwafefwefewfwefwefwnefwefwaehfbewaufbergaae</h1>");
+            };
+            // read the image file as a data URL.
+			reader.readAsDataURL(this.files[0]);
+			document.write("<h1>Loremwafefwefewfwefwefwnefwefwaehfbewaufbergaae</h1>");
+		};
+		
+    }
+	</script> -->
+	
+	<!-- <script type="text/javascript">
+		function readURL(input) {
+			if (input.files && input.files[0]) {
+				var reader = new FileReader();
+				reader.onload = function(e) {
+					$('#ProfilePhoto').attr('src', e.target.result);
+				}
+				reader.readAsDataURL(input.files[0]);
+			}
+		}
+	
+		$("#profile_file").change(function() {
+			
+			readURL(this);
+			alert("COMPLETE");
+;		});
+	</script> -->
+
+	<script type="text/javascript">
+        
+        var sel_file;
+ 
+        $(document).ready(function() {
+            $("#profile_file").on("change", handleImgFileSelect);
+        }); 
+ 
+        function handleImgFileSelect(e) {
+            var files = e.target.files;
+            var filesArr = Array.prototype.slice.call(files);
+ 
+            filesArr.forEach(function(f) {
+                if(!f.type.match("image.*")) {
+                    alert("확장자는 이미지 확장자만 가능합니다.");
+                    return;
+                }
+ 
+                sel_file = f;
+ 
+                var reader = new FileReader();
+                reader.onload = function(e) {
+					
+                    $("#ProfilePhoto").attr("src", e.target.result);
+                }
+                reader.readAsDataURL(f);
+            });
+        }
+ 
+    </script>
 
 </head>
 <body>
@@ -18,9 +83,11 @@
 	
 	<div class="EditBox">
 		 <div class="BoxLayout" >            <!-- ������ ���� -->
-			<img id="ProfilePhoto" src="profile.JPG">
-			<a href="사진업로드.jsp">
-				<div id="EditPhoto">프로필사진 변경</div></a>
+			<img id="ProfilePhoto" src="new.jpg">
+			<label id="file-label" for="profile_file">프로필 사진 편집</label>
+			<input type="file" id="profile_file" accept=".jpg,.jpeg,.png,.gif">
+
+
 			<div class="TextLayout">
 				<div class="TextBox">
 					<div class="Text">이름</div>

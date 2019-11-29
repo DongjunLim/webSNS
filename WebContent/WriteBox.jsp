@@ -20,10 +20,7 @@
         };
     }
     </script>
-    <style>
 
-
-    </style>
 </head>
 <body>
     <div class="writeBox">

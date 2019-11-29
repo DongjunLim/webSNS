@@ -167,10 +167,11 @@
     border: 0;
 }
 .writeBox img{
-    max-width:200px;
+    max-width:201px;
     max-height: 400px;
     padding-bottom:0px;
     margin-bottom:-4px;
+    margin-left:-1px;
     
 }
 
