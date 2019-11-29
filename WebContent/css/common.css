@@ -59,6 +59,7 @@ body{
     -webkit-text-stroke: 1px white;
     padding-right:0px;
     transition:300ms ease all; 
+    cursor:pointer;
 }
 .menu i:hover{
 	font-size:2.35rem;

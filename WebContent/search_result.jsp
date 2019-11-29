@@ -9,7 +9,7 @@
         <meta charset="utf-8"/>
         <script src="https://kit.fontawesome.com/a076d05399.js"></script>
         <!--<script type="text/javascript" src="./ScrollEvent.js"></script>  -->
-
+		    <script type="text/javascript" src="./setting.js"></script>
         <link rel="stylesheet" href="./css/common.css" type="text/css" />
         <link rel="stylesheet" href="./css/search_result.css" type="text/css" />
         <script type="text/javascript">

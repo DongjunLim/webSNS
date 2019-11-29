@@ -10,6 +10,7 @@
     <script type="text/javascript" src="./showfollowbox.js"></script>
     <link rel="stylesheet" href="./css/mypage.css" type="text/css" />
     <link rel="stylesheet" href="./css/common.css" type="text/css" />
+    <script type="text/javascript" src="./setting.js"></script>
     <link rel="stylesheet" href="./css/followbox.css" type="text/css" />
     
 </head>
