@@ -19,7 +19,7 @@
 
     <script type="text/javascript" src="./writeBox.js"></script>
         <div class="menu">
-        	<div id="u-mask"></div>
+            <div id="u-mask"></div>
             <a class="logo" href="./NewsFeed.jsp"><img class="onion" src="onion.png"/></a>
             <label class="searchBar" style="text-align: center";onkeypress="if(event.keyCode==13) {실행할 함수명(); return false;}">
                 <input type="text"  placeholder="검색"/>
@@ -53,8 +53,8 @@
                 </a>
             </div>
                        
-        				
-           					 
+                        
+                             
         </div>
                 
         
@@ -67,7 +67,7 @@
                 var writeBoxTemplate = `
                 <div class="writeBox">
                     <div class="MainLayout">
-                        <form action="PostProcess.jsp" method="post">
+                        <form action="PostProcess.jsp" method="post" enctype="multipart/form-data">
                             <div class="NameBar">
                                 <a href="mypage.jsp">
                                     <div id="ProfilePhoto"><img src=${locationOfProfileImg}/></div>
