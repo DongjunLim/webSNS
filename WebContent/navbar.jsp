@@ -21,9 +21,9 @@
         <div class="menu">
             <div id="u-mask"></div>
             <a class="logo" href="./NewsFeed.jsp"><img class="onion" src="onion.png"/></a>
-            <label class="searchBar" style="text-align: center";>
+            <form action="./SearchProcess.jsp" method="get"><label class="searchBar" style="text-align: center";>
                 <input type="text"  onkeypress="if(event.keyCode==13) {alert('navbar 25행에 alert함수 지우고 검색처리 함수 넣으면 됨.'); return false;}" placeholder="검색"/>
-            </label>
+            </label></form>
             <div class="icon_list">
                 <div style="padding-right:15px;"></div>
                 <a href="./search_result.jsp">               <!-- 나침반 아이콘, 클릭하면 둘러보기로 넘어감 -->

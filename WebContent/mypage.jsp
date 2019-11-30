@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="./css/common.css" type="text/css" />
     <script type="text/javascript" src="./setting.js"></script>
     <link rel="stylesheet" href="./css/followbox.css" type="text/css" />
+
     
 </head>
 <body>
@@ -19,6 +20,7 @@
     <jsp:include page="navbar.jsp"/>
     <div id="f-mask"></div>
     <div class="f-followevent">
+        <script type="text/javascript" src="./IconEvent.js"></script>
             <div class="main_box">
                     <div class="title">
                         <div id="HeadText">
@@ -30,7 +32,7 @@
                             <img src= "profile.jpg"/>
                         </div>
                         <div class="username">유저이름</div>
-                        <a href="activity.html"><div class="status">팔로우</div></a>
+                        <div class="status">팔로우</div>
                     </div>
                     <div class="l-follower">
                         <div class="userPhoto">
@@ -57,7 +59,7 @@
                             <img src= "profile.jpg"/>
                         </div>
                         <div class="username">유저이름</div>
-                        <a href="activity.html"><div class="status">팔로우</div></a>
+                        <div class="status">팔로우</div>
                     </div>
                     <div class="l-follower">
                         <div class="userPhoto">

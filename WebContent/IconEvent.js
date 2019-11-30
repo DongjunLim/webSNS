@@ -1,6 +1,25 @@
 
 var likeState=0;
 var bookMarkState=0;
+var followState=0;
+
+$(function(){
+	$('.status').click(function(){
+	      if(followState==0){
+	        $(this).css("background","orangered");
+	        $(this).css("color","white");
+	        $(this).css("font-weight","bold");
+	        followState=1;
+	      }
+	      else{
+		    $(this).css("background","rgb(250,250,250)");
+		    $(this).css("border","1px solid orangered;");
+		    $(this).css("font-weight","300");
+		    $(this).css("color","orangered");
+	        followState=0;
+	      }
+	  });
+});
 
 $(function(){
   $('.fa-heart').click(function(){
@@ -37,3 +56,5 @@ $(function(){
   });
 });
 {/* </script> */}
+
+

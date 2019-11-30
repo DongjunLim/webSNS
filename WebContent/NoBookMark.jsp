@@ -1,3 +1,5 @@
+<%@ page language="java" contentType="text/html; charset=utf-8"
+    pageEncoding="utf-8"%>
 <!DOCTYPE html>
 
 <html>
@@ -40,7 +42,7 @@
                 <i class="far fa-surprise"></i>
             </div>
         <div class="no-follow-massage">
-            회원님의 팔로우 피드가 비었습니다!
+            저장한 게시물이 존재하지 않습니다.
         
         </div>
 
