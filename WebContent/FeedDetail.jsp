@@ -38,6 +38,7 @@
                 <div id="ProfilePhoto"><img src="new.jpg"/></div>
                <button class="profile">username</button>
                <button class="follow">팔로우</button>
+          
                <div class="setting"><i class="fas fa-ellipsis-h"></i>
                
                    <div class="setting-box">

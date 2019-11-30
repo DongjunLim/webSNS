@@ -16,6 +16,7 @@ $(function(){
         $(this).css("transition","650ms ease all");
         likeState=0;
       }
+      
   });
 });
 

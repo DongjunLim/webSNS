@@ -21,8 +21,8 @@
         <div class="menu">
         	<div id="u-mask"></div>
             <a class="logo" href="./NewsFeed.jsp"><img class="onion" src="onion.png"/></a>
-            <label class="searchBar" style="text-align: center";onkeypress="if(event.keyCode==13) {실행할 함수명(); return false;}">
-                <input type="text"  placeholder="검색"/>
+            <label class="searchBar" style="text-align: center";>
+                <input type="text"  onkeypress="if(event.keyCode==13) {alert('navbar 25행에 alert함수 지우고 검색처리 함수 넣으면 됨.'); return false;}" placeholder="검색"/>
             </label>
             <div class="icon_list">
                 <div style="padding-right:15px;"></div>
