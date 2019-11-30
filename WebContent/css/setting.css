@@ -117,7 +117,7 @@
     display: none;
     position: absolute;
     margin-top: 55px;
-    margin-left: 3px;
+    margin-left: -72px;
     background-color: rgb(248, 248, 248);
     z-index: 9000;
 }
