@@ -19,7 +19,7 @@
 
     <script type="text/javascript" src="./writeBox.js"></script>
         <div class="menu">
-        	<div id="u-mask"></div>
+            <div id="u-mask"></div>
             <a class="logo" href="./NewsFeed.jsp"><img class="onion" src="onion.png"/></a>
             <label class="searchBar" style="text-align: center";>
                 <input type="text"  onkeypress="if(event.keyCode==13) {alert('navbar 25행에 alert함수 지우고 검색처리 함수 넣으면 됨.'); return false;}" placeholder="검색"/>
@@ -53,8 +53,8 @@
                 </a>
             </div>
                        
-        				
-           					 
+                        
+                             
         </div>
                 
         
@@ -67,7 +67,7 @@
                 var writeBoxTemplate = `
                 <div class="writeBox">
                     <div class="MainLayout">
-                        <form action="PostProcess.jsp" method="post">
+                        <form action="PostProcess.jsp" method="post" enctype="multipart/form-data">
                             <div class="NameBar">
                                 <a href="mypage.jsp">
                                     <div id="ProfilePhoto"><img src=${locationOfProfileImg}/></div>
