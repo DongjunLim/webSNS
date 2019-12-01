@@ -32,14 +32,14 @@
                             <img src= "profile.jpg"/>
                         </div>
                         <div class="username">유저이름</div>
-                        <div class="status">팔로우</div>
+                        <div class="follow-status">팔로우</div>
                     </div>
                     <div class="l-follower">
                         <div class="userPhoto">
                             <img src= "profile.jpg"/>
                         </div>
                         <div class="username">유저이름</div>
-                        <div class="status">팔로우</div>
+                        <div class="follow-status">팔로우</div>
                     </div>
              
             </div>
@@ -59,14 +59,14 @@
                             <img src= "profile.jpg"/>
                         </div>
                         <div class="username">유저이름</div>
-                        <div class="status">팔로우</div>
+                        <div class="follow-status">팔로우</div>
                     </div>
                     <div class="l-follower">
                         <div class="userPhoto">
                             <img src= "profile.jpg"/>
                         </div>
                         <div class="username">유저이름</div>
-                        <div class="status">팔로우</div>
+                        <div class="follow-status">팔로우</div>
                     </div>
              
             </div>

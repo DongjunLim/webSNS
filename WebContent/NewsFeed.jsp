@@ -21,10 +21,11 @@
         <div style="padding-top: 110px;"></div>
         <!-- 예제로 3개만 출력해봄 -->
         <!-- 팔로우가 없는지 확인해서 팔로우가 없으면 NoFeed.jsp 호출-->
+        <div class="frame-layout">
 		<script type="text/javascript">
 			newsfeedPrint();
 		</script>
-		
+		</div>
 
 
 

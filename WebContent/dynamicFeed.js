@@ -2,7 +2,7 @@ function newsfeedPrint(){
 	//출력해야하는 피드의 양은 백엔드에서?
 	//사용하는 변수 : writerName, locationOfPhoto, theNumberOfGood, contentVariable, replyVariable
 	//아래의 변수 초기화값은 나중에 삭제할 예정
-	var theNumberOfFeed = 3;
+	var theNumberOfFeed = 13;
 	var writerName = 'dongjun', locationOfPhoto='./sample/4.JPG', theNumberOfGood = 10;
 	var contentVariable = `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius, minima. 
 	Nulla voluptatem vel deleniti tempore. Praesentium, inventore? Aspernatur, eum? 
@@ -28,7 +28,7 @@ function newsfeedPrint(){
 	    	<i class="far fa-bookmark"></i>
 	    	<br>좋아요 ${theNumberOfGood}개
 		</div>
-		<div class="bottom_box" style="padding:13px;">
+		<div class="bottom_box">
 	     
 		<div class="content_box">
 			${contentVariable}

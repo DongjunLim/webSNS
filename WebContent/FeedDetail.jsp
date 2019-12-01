@@ -11,15 +11,19 @@
     <script type="text/javascript" src="./ScrollEvent.js"></script>
     <script type="text/javascript" src="./dynamicSearch.js"></script>
     <script type="text/javascript" src="./setting.js"></script>
+    <script type="text/javascript" src="./showfollowbox.js"></script>
     <link rel="stylesheet" href="./css/common.css" type="text/css" />
     <link rel="stylesheet" href="./css/FeedDetail.css" type="text/css" />
     <link rel="stylesheet" href="./css/search_result.css" type="text/css" />
     <link rel="stylesheet" href="./css/setting.css" type="text/css" />
+ 	<script type="text/javascript">
+ 		var followState=0;
+ 	</script>   
     
 </head>
 <body>
-    <div id="s-mask"></div>
 
+    <div id="s-mask"></div>
     </div>   
     <jsp:include page="navbar.jsp"/>
     <div style="padding-top:60px;">
@@ -37,7 +41,7 @@
             <div class="NameBar">
                 <div id="ProfilePhoto"><img src="new.jpg"/></div>
                <button class="profile">username</button>
-               <button class="follow">팔로우</button>
+               <button class="follow-status">팔로우</button>
           
                <div class="setting"><i class="fas fa-ellipsis-h"></i>
                
